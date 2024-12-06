@@ -8,6 +8,6 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-        return "Hello from Raman !";
+        return "Hello SocGen from Raman Khanna !";
     }   
 }
