@@ -11,6 +11,8 @@ IMPORTANT NOTES :
 
 --- create a new poool : create a linux vm 
 
+-- wget http :// download link
+
 -- create pat and authenticate > organisttion > user settings 
 
 --configure and connect mypool
