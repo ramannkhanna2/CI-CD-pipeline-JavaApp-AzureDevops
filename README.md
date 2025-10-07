@@ -1,7 +1,5 @@
 Sample Java SpringBoot web app used to demo CI/CD using Azure DevOps and deploying to Azure App Service.
 
-[![Build status](https://houssemdellai.visualstudio.com/Java-SpringBoot-WebApp/_apis/build/status/Java-SpringBoot-Maven-CI)](https://houssemdellai.visualstudio.com/Java-SpringBoot-WebApp/_build/latest?definitionId=96)
-
 ``
 
 IMPORTANT NOTES :
@@ -32,10 +30,12 @@ IMPORTANT NOTES :
 imp note : while creating release : in the "arificat download" section , select the dropdown folder > drop > maven gradle > target > .jar file "
 
 
+while creating a azure app svc : select runtime stack :
+   java 17 tomcat 9
 
 ---- Due to changes in Azure API, please refer to the following change to the Release pipeline:
 
-Runtime Stack : Tomcat 9.0 with Java 8
+Runtime Stack : Tomcat 9.0 with Java 17
 
 Startup command:
 
