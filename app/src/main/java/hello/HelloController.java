@@ -8,6 +8,6 @@ public class HelloController {
     
     @RequestMapping("/")
     public String index() {
-        return "Hello all today is Friday !";
+        return "Hello all today is Saturday !";
     }   
 }
