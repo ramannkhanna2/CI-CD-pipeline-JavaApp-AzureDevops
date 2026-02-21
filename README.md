@@ -35,7 +35,6 @@ while creating a azure app svc : select runtime stack :
 
 ---- Due to changes in Azure API, please refer to the following change to the Release pipeline:
 
-Runtime Stack : Tomcat 9.0 with Java 17
 
 Startup command:
 
